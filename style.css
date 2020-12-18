@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	line-height: 1.5;
+	font-family: 'Caveat', sans-serif;
+}
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+p{
+	margin: 0;
+}
+/* structure */
+body{
+	background-image: url('wallpaper.jpg');
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.full-content{
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	padding: 10% 10% 10% 15%;
+}
+.header{
+	height: 10%;
+	width: 100%;
+}
+.intro.w3-jumbo.w3-animate-bottom{
+	font-size: 5rem;
+	word-spacing: -0.1rem;
+    margin-bottom: 0.8rem;
+    text-shadow: 0 0 3px #b4b4b4;
+	color:#ffffff;
+}
+.sub-heading{
+	font-size: 3rem;
+	margin-bottom: 4%;
+	/* color:#787878; */
+	color:#bebebe;
+}
+.socials{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	height: 20%;
+	width: 30%;
+	color:#a9acb5;
+}
+.socials :hover{
+	color:#2c5dec;
+}
+.socials a{
+	margin: 2% 5%;
+	font-size: 2.5rem;
+	color: inherit;
+}
+
+.fancy-box-1{
+	z-index: 0;
+	width: 45%;
+	height: 60%;
+	border: 2px solid rgb(93, 138, 168);
+	position: absolute;
+	transform: rotate(50deg);
+	left: -36%;
+	bottom: -5%;
+}
+
+.fancy-box-2{
+    width: 100px;
+    height: 100px;
+    background: rgb(168, 166, 166);
+    transition: width 2s;
+}
+
+
+.fancy-box-2:hover{
+    width: 300px;
+
+  box-shadow: 10px 10px grey;
+}
